@@ -14,9 +14,14 @@ public class Exercicio_Um {
 		System.out.println("DIGITE UM NÚMERO INTEIRO");
 		int x = sc.nextInt();
 		
+		if (x >= 0) {
+			System.out.println("O NÚMERO DIGITADO É POSITIVO");
+		}
+		else {
+			System.out.println("O NÚMERO DIGITADO É NEGATIVO");
+		}
 		
-		
-		
+		sc.close();
 	}
 
 }
