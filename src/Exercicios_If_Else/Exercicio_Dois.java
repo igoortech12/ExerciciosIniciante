@@ -12,12 +12,14 @@ public class Exercicio_Dois {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("DIGITE UM NÚMERO INTEIRO");
-		int a = sc.nextInt();
+		int x = sc.nextInt();
 		
-		System.out.println("DIGITE OUTRO NÚEMRO INTEIRO");
-		int b = sc.nextInt();
-		
-		
+		if (x%2 == 0) {
+			System.out.println("O NÚMERO DIGITADO É PAR");
+		}
+		else {
+			System.out.println("O NÚMERO DIGITADO É IMPAR");
+		}
 		
 		sc.close();
 	}
