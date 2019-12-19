@@ -18,13 +18,18 @@ public class Exercicio_Quatro {
 		System.out.println("\nDIGITE O HORÁRIO DO TERMINO DO JOGO");
 		int T = sc.nextInt();
 		
-		if (I <= T) {
+		if (I < T) {
 			System.out.println("\nO JOGO DUROU " + (T - I) + " HORA(S).");
 		}
 		else {
-			System.out.println("\nO JOGO DUROU " + (24 - ( I - T)) + " HORA(S).");
+			if (I == 0 && T == 0) {
+			System.out.println("\nO JOGO DUROU 24 HORA(S).");
 		}
+			else {
+			System.out.println("\nO JOGO DUROU " + (24 - ( I - T)) + " HORA(S).");
+			}
 		sc.close();
 	}
 
+}
 }
