@@ -16,9 +16,15 @@ public class Exercicio_Tres {
 		System.out.println("DIGITE O SEGUNDO NÚMERO");
 		int B = sc.nextInt();
 
-		if (A == 2 * B) {
-			System.out.println("OS NÚMEROS DIGITADOS SÃO MULTIPLOS");
-		} else {
+		if (A%2 == 0) {
+			if (B%2 == 0) {
+				System.out.println("OS NÚMEROS DIGITADOS SÃO MULTIPLOS");	
+			}
+			else {
+				System.out.println("OS NÚMEROS DIGITADOS NÃO SÃO MULTIPLOS");
+			}
+		} 
+		else {
 			System.out.println("OS NÚMEROS DIGITADOS NÃO SÃO MULTIPLOS");
 		}
 		sc.close();
