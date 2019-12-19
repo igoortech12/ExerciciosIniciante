@@ -22,11 +22,28 @@ public class Exercicio5 {
 		System.out.println("|  5    - Refrigerante    - R$ 1.50|");
 		System.out.println("|----------------------------------|");
 		System.out.println("\n\nPOR FAVOR, ESCOLHA UM PRODUTO.");
-		int C = sc.nextInt();
+		int CÓDIGO = sc.nextInt();
 		System.out.println("\nPOR FAVOR, DIGITE A QUANTIDADE QUE DESEJA");
-		int Q = sc.nextInt();
-		System.out.println("\nTOTAL É DE: R$");		
-	
+		int QUANTIDADE = sc.nextInt();
+		
+		if (CÓDIGO == 1) {
+			System.out.printf("\nTOTAL É DE: R$" + (4.00 * QUANTIDADE));
+		}
+		else {
+			if (CÓDIGO == 2) {
+				System.out.printf("\nTOTAL É DE: R$" + (4.50 * QUANTIDADE));
+			}
+			if (CÓDIGO == 3) {
+				System.out.printf("\nTOTAL É DE: R$" + (5.00 * QUANTIDADE));
+			}
+			if (CÓDIGO == 4) {
+				System.out.printf("\nTOTAL É DE: R$" + (2.00 * QUANTIDADE));
+			}
+			if (CÓDIGO == 5) {
+				System.out.printf("\nTOTAL É DE: R$" + (1.50 * QUANTIDADE));
+			}
+		}
+				
 		sc.close();
 	}
 
