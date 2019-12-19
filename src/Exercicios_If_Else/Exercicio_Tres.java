@@ -24,9 +24,6 @@ public class Exercicio_Tres {
 				System.out.println("OS NÚMEROS DIGITADOS NÃO SÃO MULTIPLOS");
 			}
 		} 
-		else {
-			System.out.println("OS NÚMEROS DIGITADOS NÃO SÃO MULTIPLOS");
-		}
 		sc.close();
 	}
 
