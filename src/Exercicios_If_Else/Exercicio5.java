@@ -21,7 +21,7 @@ public class Exercicio5 {
 		System.out.println("|  4    - Torrada simples - R$ 2.00|");
 		System.out.println("|  5    - Refrigerante    - R$ 1.50|");
 		System.out.println("|----------------------------------|");
-		System.out.println("\n\nPOR FAVOR, ESCOLHA UM PRODUTO.");
+		System.out.println("\n\n\nPOR FAVOR, ESCOLHA UM PRODUTO.");
 		int CÓDIGO = sc.nextInt();
 		System.out.println("\nPOR FAVOR, DIGITE A QUANTIDADE QUE DESEJA");
 		int QUANTIDADE = sc.nextInt();
